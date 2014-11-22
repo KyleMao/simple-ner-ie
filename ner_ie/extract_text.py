@@ -1,8 +1,8 @@
-START_FLAG = ['TEXT:']
-END_FLAG = ['UNCLAS', '(MORE)', '(ENDALL)']
-
-
 def extract_text(raw_file):
+    START_FLAG = ['TEXT:']
+    SECTION_FLAG = ['UNCLAS', '(MORE)']
+    END_FLAG = ['(ENDALL)']
+
     started = False
     text = ''
     for line in open(raw_file, 'r'):
@@ -13,9 +13,10 @@ def extract_text(raw_file):
         else:
             if line in START_FLAG:
                 continue
-            elif line in END_FLAG:
+            elif line in SECTION_FLAG:
                 started = False
+            elif line in END_FLAG:
+                break
             else:
                 text += (line + ' ')
-    print text
-    print
+    return text
