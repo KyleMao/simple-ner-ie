@@ -1,10 +1,7 @@
 import os
 from os import path
 from nose.tools import *
-from ner_ie import extract_text
-from ner_ie import lower_case
-from ner_ie import ner
-from ner_ie import segment_sentence
+from ner_ie import sentence_extractor
 
 
 def setup():
@@ -20,8 +17,6 @@ def test_extract_segment():
     raw_dir = path.abspath('data/Raw')
     raw_files = [f for f in os.listdir(raw_dir) if path.isfile(path.join(raw_dir, f))]
     raw_files.sort()
+    sent_extractor = sentence_extractor.SentenceExtractor()
     for raw_file in raw_files:
-        text = extract_text.extract_text(path.join(raw_dir, raw_file))
-        raw_sents = segment_sentence.segment_sentence(text)
-        sents = lower_case.lower_case(raw_sents)
-        ner.ner(sents)
+        sent_extractor.get_sentences(path.join(raw_dir, raw_file))

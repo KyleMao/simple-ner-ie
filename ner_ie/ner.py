@@ -12,8 +12,7 @@ def ner(sents):
 
     """
 
-    extractor = named_entity_extractor(os.path.join(PROJECT_ROOT, 'data/models/ner_model.dat'))
+    extractor = named_entity_extractor(
+        os.path.join(PROJECT_ROOT, 'data/models/ner_model.dat'))
 
-    for sent in sents:
-        tokens = tokenize(sent)
-        print tokens
+    return [extractor.extract_entities(tokenize(sent)) for sent in sents]

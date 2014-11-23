@@ -1,4 +1,4 @@
-€}q(Usetup]qUconfigqaUtests.ner_ie_tests]q(UteardownqUsetupqUtest_extract_segmentqeUner_ie.segment_sentence]qUsegment_sentenceq	aUner_ie.lower_case]q
-U
-lower_caseqaUner_ie.extract_text]qUextract_textqaUner_ie.main_pipeline]q(U	raw_filesqUraw_dirqeU
-ner_ie.ner]q(UnerqUPROJECT_ROOTqeUner_ie.tokenize]qUtokenizeqaUner_ie.pos_tag]qUpos_tagqau.
+€}q(Uner_ie.main_pipeline]q(U	raw_filesqUraw_dirqeUsetup]qUconfigqaUtests.ner_ie_tests]q(UteardownqUsetupq	Utest_extract_segmentq
+eUner_ie.segment_sentence]qUsegment_sentenceqaUner_ie.get_sentences]q(Uget_sentencesqUget_textqeUner_ie.sentence_extractor]qUSentenceExtractorqaUner_ie.lower_case]qU
+lower_caseqaUner_ie.extract_text]qUextract_textqaUner_ie.tokenize]qUtokenizeqaU
+ner_ie.ner]q(UnerqUPROJECT_ROOTqeUner_ie.sentence]qUSentenceqaUner_ie.pos_tag]qUpos_tagqau.
