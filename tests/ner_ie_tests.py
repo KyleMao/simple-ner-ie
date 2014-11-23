@@ -2,6 +2,8 @@ import os
 from os import path
 from nose.tools import *
 from ner_ie import extract_text
+from ner_ie import lower_case
+from ner_ie import ner
 from ner_ie import segment_sentence
 
 
@@ -20,4 +22,6 @@ def test_extract_segment():
     raw_files.sort()
     for raw_file in raw_files:
         text = extract_text.extract_text(path.join(raw_dir, raw_file))
-        segment_sentence.segment_sentence(text)
+        raw_sents = segment_sentence.segment_sentence(text)
+        sents = lower_case.lower_case(raw_sents)
+        ner.ner(sents)

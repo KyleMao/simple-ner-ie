@@ -2,6 +2,14 @@ from nltk import data
 
 
 def segment_sentence(text):
+    """Segments raw text into sentences
+
+    Args:
+        text: A string containing the raw text.
+
+    Returns:
+        A list of sentences.
+    """
+
     sent_segmenter = data.load('tokenizers/punkt/english.pickle')
-    sents = sent_segmenter.tokenize(text)
-    return sents
+    return sent_segmenter.tokenize(text)
