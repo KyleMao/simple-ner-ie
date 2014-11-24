@@ -27,13 +27,13 @@ def test_pipeline():
     anno_files.sort()
     sent_extractor = SentenceExtractor()
     all_sents = []
-    for idx in range(len(raw_files)):
-    # for idx in [1]:
+    # for idx in range(len(raw_files)):
+    for idx in [1]:
         raw_file = raw_files[idx]
         anno_file = anno_files[idx]
         sents = sent_extractor.get_sentences(path.join(raw_dir, raw_file))
         all_sents.extend(sents)
         mentions = read_entity.read_entity(path.join(anno_dir, anno_file))
         prepare_ner_sentence.prepare(sents, mentions)
-    print 'Start training!'
-    train_ner.train_ner(all_sents)
+    # print 'Start training!'
+    # train_ner.train_ner(all_sents)

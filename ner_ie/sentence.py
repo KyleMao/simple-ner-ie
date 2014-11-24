@@ -25,6 +25,7 @@ class Sentence():
         self.offset_list = offset_list
         self.tokens = tokenize(self.lower_text)  # using MITIE tokenizer
         self.entities = {}
+        self._mention_id_dict = {}
 
         self.token_ranges = []
         curr_pos = 0
@@ -40,11 +41,17 @@ class Sentence():
     def get_end(self):
         return self.offset_list[-1]
 
+    def get_entity_range(self, mention_id):
+        return self.mention_id_dict[mention_id]
+
     def offset_to_index(self, offset):
         return self.offset_list.index(offset)
 
     def has_entity(self):
         return len(self.entities) > 0
+
+    def has_this_entity(self, mention_id):
+        return (mention_id in self.mention_id_dict)
 
     def add_mention(self, mention, entity_type):
         """Adds an entity to the Sentence object.
@@ -72,3 +79,5 @@ class Sentence():
                     continue
         if started:
             self.entities[(first_token, last_token)] = entity_type
+            self._mention_id_dict[mention.attrib['id']] = \
+                xrange(first_token, last_token)
