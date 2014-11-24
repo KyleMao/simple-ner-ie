@@ -1,15 +1,4 @@
-Ä}q(U;/usr/local/lib/python2.7/site-packages/nltk/sem/evaluate.py}qUread_valuationcrope.base.oi.memorydb
+Ä}q(U6/usr/local/lib/python2.7/site-packages/nltk/grammar.py}qUPCFG.fromstringcrope.base.oi.memorydb
 ScopeInfo
-q)Åq}qUbuiltinUstrÜqUunknownÖqÜ(UbuiltinqUdictq	UnoneÖq
-h
-ts}qÜbsU6/usr/local/lib/python2.7/site-packages/nltk/grammar.py}qUPCFG.fromstringh)Åq}qUbuiltinUstrÜUnoneÖqháUinstanceUdefinedU6/usr/local/lib/python2.7/site-packages/nltk/grammar.pyUPCFGáÜs}qÜbsUner_ie/sentence_extractor.pyq}qUSentenceExtractor.get_texth)Åq}qUinstanceUdefinedhUSentenceExtractoráÜUunknownÖÜ(UbuiltinqUtupleUbuiltinUstrÜhUlistUnoneÖáts}qÜbsUb/usr/local/Cellar/python/2.7.8_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py}qUbuild_openerh)Åq}q)UinstanceqUdefinedqUb/usr/local/Cellar/python/2.7.8_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.pyUOpenerDirectoráÜs}qÜbsU3/usr/local/lib/python2.7/site-packages/nltk/data.py}q(Uloadh)Åq}q(hh
-h
-h
-h
-h
-h
-t(hh	h
-h
-ts}q ÜbU SeekableUnicodeStreamReader.readh)Åq!}q"hhU3/usr/local/lib/python2.7/site-packages/nltk/data.pyUSeekableUnicodeStreamReaderq#áÜh
-Ühs}q$ÜbU_openh)Åq%}q&hÖhhU3/usr/local/lib/python2.7/site-packages/nltk/data.pyh#áÜs}q'ÜbUZipFilePathPointer.openh)Åq(}q)hhU3/usr/local/lib/python2.7/site-packages/nltk/data.pyUZipFilePathPointerq*áÜh
-ÜhhU3/usr/local/lib/python2.7/site-packages/nltk/data.pyh#áÜs}q+ÜbUfindh)Åq,}q-hhUlistháÜhhU3/usr/local/lib/python2.7/site-packages/nltk/data.pyh*áÜs}q.ÜbUsplit_resource_urlh)Åq/}q0hÖ(hUtuplehhts}q1Übuu.
+q)Åq}qUbuiltinUstrÜUnoneÖqháUinstanceUdefinedU6/usr/local/lib/python2.7/site-packages/nltk/grammar.pyUPCFGáÜs}qÜbsUp/usr/local/Cellar/python/2.7.8_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/etree/ElementTree.py}qUparseh)Åq	}q
+UunknownÖUnoneÖÜUinstanceUdefinedUp/usr/local/Cellar/python/2.7.8_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/etree/ElementTree.pyUElementTreeáÜs}qÜbsU3/usr/local/lib/python2.7/site-packages/nltk/data.py}q(Uloadh)Åq}q(UbuiltinUstrÜqUnoneÖqhhhhht(UbuiltinqUdictqhhts}qÜbU SeekableUnicodeStreamReader.readh)Åq}qUinstanceqUdefinedqU3/usr/local/lib/python2.7/site-packages/nltk/data.pyUSeekableUnicodeStreamReaderqáÜhÜhs}qÜbU_openh)Åq}qhÖhhU3/usr/local/lib/python2.7/site-packages/nltk/data.pyháÜs}qÜbUZipFilePathPointer.openh)Åq}qhhU3/usr/local/lib/python2.7/site-packages/nltk/data.pyUZipFilePathPointerqáÜhÜhhU3/usr/local/lib/python2.7/site-packages/nltk/data.pyháÜs}q ÜbUfindh)Åq!}q"UunknownÖq#hUlistháÜhhU3/usr/local/lib/python2.7/site-packages/nltk/data.pyháÜs}q$ÜbUsplit_resource_urlh)Åq%}q&hÖ(hUtuplehh#ts}q'ÜbuU;/usr/local/lib/python2.7/site-packages/nltk/sem/evaluate.py}q(Uread_valuationh)Åq)}q*hh#Ü(hhhhts}q+ÜbsUner_ie/sentence_extractor.pyq,}q-USentenceExtractor.get_texth)Åq.}q/UinstanceUdefinedh,USentenceExtractoráÜUunknownÖÜ(Ubuiltinq0UtupleUbuiltinUstrÜh0UlistUnoneÖáts}q1ÜbsUb/usr/local/Cellar/python/2.7.8_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py}q2Ubuild_openerh)Åq3}q4)hhUb/usr/local/Cellar/python/2.7.8_2/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.pyUOpenerDirectoráÜs}q5Übsu.
