@@ -12,4 +12,6 @@ def read_entity(anno_file):
     """
     tree = ET.parse(anno_file)
     root = tree.getroot()
-    return [entity_mention for entity_mention in root.iter('entity_mention')]
+    parent_dict = {child:parent for parent in tree.iter() for child in parent}
+    return [(mention, parent_dict[mention].attrib['type'])
+           for mention in root.iter('entity_mention')]
